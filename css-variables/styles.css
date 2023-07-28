@@ -1,0 +1,18 @@
+body{
+    --fontsize :20px;
+    --fontcolor :red;
+}
+
+.parent{
+    font-size: var(--fontsize);
+    font-style: var(--font-style);
+}
+
+.child1{
+    --font-style: italic;
+}
+
+.child2{
+    color: var(--fontcolor);
+    font-style: var(--font-style);
+}
