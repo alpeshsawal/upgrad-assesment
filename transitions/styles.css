@@ -1,0 +1,16 @@
+.container{
+    background-color: bisque;
+    width: 200px;
+    height: 200px;
+
+    transition-property: height,width, background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+.container:hover{
+    height: 400px;
+    width:400px;
+    background-color: aquamarine;
+
+}
