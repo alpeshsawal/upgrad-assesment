@@ -3,11 +3,18 @@
     margin: 3px;
     padding: 3px;
     display: flex;
+    height: 600px;
 
     /* flex-direction: row;
     flex-wrap: wrap; */
 
     flex-flow: row wrap;
+
+    justify-content: flex-start;
+    align-items:flex-end;
+
+    align-content: flex-end;
+
 }
 
 .item{
